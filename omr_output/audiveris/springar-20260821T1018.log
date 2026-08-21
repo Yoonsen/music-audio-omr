@@ -1,0 +1,74 @@
+2026-08-21 10:18:21,033 INFO [springar]                 Book.java:560  | 1 sheet in /home/theat/music-audio-omr/example_sheet_music/springar.png
+2026-08-21 10:18:21,190 INFO []                 Book.java:2577 | Stored /book.xml
+2026-08-21 10:18:21,190 INFO []                 Book.java:2537 | Book stored as omr_output/springar.omr
+2026-08-21 10:18:21,193 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-08-21 10:18:21,194 INFO [springar]       StepMonitoring.java:98   | LOAD
+2026-08-21 10:18:21,703 INFO [springar]            SheetStub.java:1273 | Loaded image #1 2639x3574 from /home/theat/music-audio-omr/example_sheet_music/springar.png
+2026-08-21 10:18:21,707 INFO [springar]            ImageUtil.java:206  | Discarding alpha band ...
+2026-08-21 10:18:22,075 INFO [springar]            ImageUtil.java:124  | Converting max RGB to gray
+2026-08-21 10:18:22,306 INFO [springar]       StepMonitoring.java:98   | BINARY
+2026-08-21 10:18:23,081 INFO [springar]       StepMonitoring.java:98   | SCALE
+2026-08-21 10:18:23,113 INFO [springar]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2026-08-21 10:18:23,114 INFO [springar]         ScaleBuilder.java:264  | Beam measured height: 13 -- 0.54 of [6..19] range at 272% of needed quorum
+2026-08-21 10:18:23,115 INFO [springar]            ScaleStep.java:65   | Scale{ interline(21,22,24) line(2,3,5) beam(13)}
+2026-08-21 10:18:23,116 INFO [springar]       StepMonitoring.java:98   | GRID
+2026-08-21 10:18:23,786 INFO [springar]       LinesRetriever.java:1500 | Global slope: 0.00388
+2026-08-21 10:18:23,847 INFO [springar]    ClustersRetriever.java:326  | Retrieved raw line clusters: 8 of sizes [5] with interline(21,22,24)
+2026-08-21 10:18:24,058 INFO [springar]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8]
+2026-08-21 10:18:24,528 INFO [springar]        SystemManager.java:779  | 1 part along 8 systems
+2026-08-21 10:18:24,529 INFO [springar]                 Book.java:543  | Created scores: [{Score 1}]
+2026-08-21 10:18:24,529 INFO [springar]       StepMonitoring.java:98   | HEADERS
+2026-08-21 10:18:24,750 INFO [springar]      BasicClassifier.java:286  | Classifier loaded XML norms.
+2026-08-21 10:18:24,752 INFO [springar]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/opt/audiveris/lib/app/audiveris.jar!/res/basic-classifier.zip
+2026-08-21 10:18:25,258 INFO [springar]           KeyBuilder.java:1038 | Staff#5 key slice#3 pitch adjusted from -5.6 to -5
+2026-08-21 10:18:25,369 INFO [springar]       StepMonitoring.java:98   | STEM_SEEDS
+2026-08-21 10:18:25,449 INFO [springar]        StemSeedsStep.java:86   | stem(3 max:5)
+2026-08-21 10:18:25,516 INFO [springar]       StepMonitoring.java:98   | BEAMS
+2026-08-21 10:18:30,381 INFO [springar]       StepMonitoring.java:98   | LEDGERS
+2026-08-21 10:18:30,734 INFO [springar]       StepMonitoring.java:98   | HEADS
+2026-08-21 10:18:37,088 INFO [springar]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:0.5]}
+2026-08-21 10:18:37,089 INFO [springar]       StepMonitoring.java:98   | STEMS
+2026-08-21 10:18:37,767 INFO [springar]       StepMonitoring.java:98   | REDUCTION
+2026-08-21 10:18:37,849 INFO [springar]        ReductionStep.java:105  | Stems free length median value: 61 pixels, 2.8 interlines
+2026-08-21 10:18:37,854 INFO [springar]       StepMonitoring.java:98   | CUE_BEAMS
+2026-08-21 10:18:37,855 INFO [springar]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-08-21 10:18:37,855 INFO [springar]       StepMonitoring.java:98   | TEXTS
+2026-08-21 10:18:38,030 WARN [springar]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-08-21 10:18:38,031 INFO [springar]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-08-21 10:18:38,043 INFO [springar]       StepMonitoring.java:98   | MEASURES
+2026-08-21 10:18:38,052 INFO [springar]                 Page.java:307  | 29 raw measures: [3 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5, 3 in system#6, 4 in system#7, 3 in system#8]
+2026-08-21 10:18:38,053 INFO [springar]       StepMonitoring.java:98   | CHORDS
+2026-08-21 10:18:38,068 INFO [springar]       StepMonitoring.java:98   | CURVES
+2026-08-21 10:18:39,116 INFO [springar]         SlursBuilder.java:240  | Slurs: 64
+2026-08-21 10:18:39,142 INFO [springar]      SegmentsBuilder.java:155  | Segments: 24
+2026-08-21 10:18:39,147 INFO [springar]       StepMonitoring.java:98   | SYMBOLS
+2026-08-21 10:18:40,245 INFO [springar]       StepMonitoring.java:98   | LINKS
+2026-08-21 10:18:40,279 INFO [springar]             KeyInter.java:1298 | Key built KeyInter#6522{(0.952) staff:4 KEY_SHARP_2 pitch:-2.7 fifths:2}
+2026-08-21 10:18:40,291 INFO [springar]             KeyInter.java:1298 | Key built KeyInter#6525{(0.945) staff:6 KEY_SHARP_2 pitch:-2.8 fifths:2}
+2026-08-21 10:18:40,318 INFO [springar]       StepMonitoring.java:98   | RHYTHMS
+2026-08-21 10:18:40,363 INFO [springar]                Voice.java:257  | Measure{#17} Voice{#3 excess:1/12} too long
+2026-08-21 10:18:40,364 INFO [springar]                Voice.java:257  | Measure{#17} Voice{#4 excess:1/12} too long
+2026-08-21 10:18:40,364 INFO [springar]          StackRhythm.java:224  | S5 MeasureStack#17 no correct rhythm
+2026-08-21 10:18:40,383 INFO [springar]                Voice.java:257  | Measure{#28} Voice{#1 excess:1/8} too long
+2026-08-21 10:18:40,383 INFO [springar]          StackRhythm.java:224  | S8 MeasureStack#28 no correct rhythm
+2026-08-21 10:18:40,384 INFO [springar]       StepMonitoring.java:98   | PAGE
+2026-08-21 10:18:40,387 INFO [springar]       SheetReduction.java:154  | Gutter. Different glyphs 5/6 ArticulationInter#6412{(0.786/0.899) TENUTO} vs SlurInter#5206{(0.700/0.952) SLUR_ABOVE}
+2026-08-21 10:18:40,391 WARN [springar]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2026-08-21 10:18:40,392 WARN [springar]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5, 6, 7], please check time signatures
+2026-08-21 10:18:40,392 WARN [springar]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [8, 9, 10, 11], please check time signatures
+2026-08-21 10:18:40,392 WARN [springar]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [12, 13], please check time signatures
+2026-08-21 10:18:40,393 INFO [springar]                Voice.java:257  | Measure{#17} Voice{#3 excess:1/12} too long
+2026-08-21 10:18:40,393 INFO [springar]                Voice.java:257  | Measure{#17} Voice{#4 excess:1/12} too long
+2026-08-21 10:18:40,393 INFO [springar]                Voice.java:257  | Measure{#28} Voice{#1 excess:1/8} too long
+2026-08-21 10:18:40,398 INFO [springar]                 Book.java:2596 | Book{springar} storing
+2026-08-21 10:18:40,517 INFO [springar]                 Book.java:2577 | Stored /book.xml
+2026-08-21 10:18:40,641 INFO [springar]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-21 10:18:41,347 INFO [springar]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-21 10:18:41,347 INFO [springar]                 Book.java:2537 | Book stored as omr_output/springar.omr
+2026-08-21 10:18:41,349 INFO [springar]            SheetStub.java:1660 | Disposed sheet
+2026-08-21 10:18:41,430 INFO [springar]                 Book.java:2064 | End of Stub#1
+2026-08-21 10:18:41,431 INFO [springar]                 Book.java:2071 | Book processed.
+2026-08-21 10:18:41,907 INFO [springar]            SheetStub.java:997  | Loaded /sheet#1/sheet#1.xml
+2026-08-21 10:18:42,270 INFO [springar]      PartwiseBuilder.java:2688 | Exporting sheet(s): [#1]
+2026-08-21 10:18:42,363 INFO [springar]        ScoreExporter.java:164  | Score springar exported to omr_output/springar.mxl
+2026-08-21 10:18:42,442 INFO [springar]                Score.java:181  | Closing {Score 1}
