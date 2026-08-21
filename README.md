@@ -13,6 +13,9 @@ ordinary bitwise operations can do useful parallel work.
 - `idea-manifest.md` is the earlier raw note and sketch.
 - `notebooks/01_omr_probe.ipynb` is the first practical experiment.
 - `page-000.png` is the current test image for the notebook.
+- `omr/` wraps external OMR engines (Audiveris, homr) behind one interface,
+  each producing a raw hypothesis rather than ground truth. See
+  `omr/README.md` for setup and usage.
 
 The first notebook does not try to recognize notes. It probes whether simple
 OpenCV operations can extract staff-line evidence from a page image.
@@ -33,6 +36,11 @@ uv run python -c "import cv2; print(cv2.__version__)"
 
 Then open `notebooks/01_omr_probe.ipynb` in Jupyter or Cursor and run it against
 `page-000.png`.
+
+The `omr` module's engines are optional and not installed by a plain `uv
+sync` — see `omr/README.md` for what each one needs (`uv sync --extra omr`
+for PDF support, `uv sync --extra omr-homr` for homr, and a separate manual
+install for Audiveris).
 
 ## Next Step
 
