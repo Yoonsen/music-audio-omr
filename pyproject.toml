@@ -22,3 +22,8 @@ omr = ["pypdfium2>=4.30"]
 # Audiveris (Java, not pip/uv-installable) is intentionally left out of
 # this project's own dependencies — see omr/README.md.
 omr-homr = ["homr"]
+# `--score-png` on the CLI / omr.render.render_score_png: engraves an
+# engine's MusicXML output back to a PNG via Verovio. Also needs
+# `rsvg-convert` (SVG -> PNG) on PATH, e.g. `apt install librsvg2-bin` /
+# `brew install librsvg` — not pip-installable, so not listed here.
+omr-render = ["verovio>=6.3"]

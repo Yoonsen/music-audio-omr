@@ -30,6 +30,29 @@ python -m omr homr page-000.png -o omr_output
 python -m omr audiveris score.pdf -o omr_output --audiveris-bin /opt/audiveris/bin/Audiveris
 ```
 
+Add `--score-png` to also engrave each successful result's MusicXML back to a
+PNG (via Verovio + `rsvg-convert`), written next to the MusicXML/`.mxl`
+output as `<stem>.png` (or `<stem>_p1.png`, `<stem>_p2.png`, ... for a
+multi-page score):
+
+```bash
+python -m omr audiveris score.pdf -o omr_output/audiveris --score-png
+```
+
+This is a visual sanity check on the raw OMR output, not a corrected score —
+whatever the engine misread (wrong clef, spurious accidental, ...) renders
+exactly as misread. See `omr/render.py`; from Python:
+
+```python
+from omr.render import render_score_png
+
+png_paths = render_score_png("omr_output/audiveris/score.mxl", "omr_output/audiveris")
+```
+
+Needs the `omr-render` extra (`uv sync --extra omr-render`) plus
+`rsvg-convert` on PATH (`apt install librsvg2-bin` / `brew install librsvg`
+— not pip-installable, so it's not part of the extra).
+
 A PDF input is passed to Audiveris as-is (it handles multi-page books
 natively). For `homr`, which only accepts raster images, a PDF is first
 rasterized page by page (via the optional `pypdfium2` dependency, installed
@@ -73,6 +96,39 @@ it into `output_dir` for you.
 
 If you also need PDF input rasterized for homr, sync both extras at once:
 `uv sync --extra omr --extra omr-homr`.
+
+## Confidence / logits
+
+Neither engine reports confidence in its MusicXML, but both have it internally:
+
+- **Audiveris** saves a `grade` and `ctx-grade` (0–1) for every symbol in its
+  `.omr` project file, a zip archive with `sheet#N/sheet#N.xml` inside. No code
+  needed here. See `notebooks/04_audiveris_grades.ipynb`.
+- **homr** computes logits in two networks and keeps only the argmax.
+  `homr_confidence.py` runs homr's pipeline in-process with temporary hooks on
+  both model calls, and saves:
+  - per-pixel class probabilities from the segmentation network
+  - per-token probability vectors for all six decoder heads (rhythm, pitch,
+    lift, position, articulation, slur), plus each token's attention point
+    mapped back to original-page pixels
+
+```bash
+python -m omr.homr_confidence example_sheet_music/springar.png -o omr_output/homr
+# -> omr_output/homr/springar.confidence.json + springar.confidence.npz
+```
+
+```python
+from omr.homr_confidence import load_homr_confidence
+
+conf = load_homr_confidence("omr_output/homr/springar.confidence.json")
+conf.seg_probs             # (6, h, w) in homr's 1920 px wide page space
+conf.tokens[0]["heads"]    # p / margin / entropy / top-3 per head
+conf.head_probs["rhythm"]  # (n_tokens, 259) full distributions
+```
+
+It produces no MusicXML (use the `homr` engine for that), and it uses private
+homr helpers, so it is pinned in practice to homr 0.7.0.
+See `notebooks/05_homr_confidence.ipynb`.
 
 ## Design notes
 

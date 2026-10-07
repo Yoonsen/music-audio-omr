@@ -1,0 +1,102 @@
+2026-08-26 13:45:58,887 INFO [Elling_folkeviser_III-1]                 Book.java:560  | 1 sheet in /home/theat/music-audio-omr/example_sheet_music/Elling_folkeviser_III-1.png
+2026-08-26 13:45:59,033 INFO []                 Book.java:2577 | Stored /book.xml
+2026-08-26 13:45:59,034 INFO []                 Book.java:2537 | Book stored as omr_output/audiveris/Elling_folkeviser_III-1.omr
+2026-08-26 13:45:59,036 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-08-26 13:45:59,038 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | LOAD
+2026-08-26 13:45:59,383 INFO [Elling_folkeviser_III-1]            SheetStub.java:1273 | Loaded image #1 2094x3223 from /home/theat/music-audio-omr/example_sheet_music/Elling_folkeviser_III-1.png
+2026-08-26 13:45:59,387 INFO [Elling_folkeviser_III-1]            ImageUtil.java:124  | Converting max RGB to gray
+2026-08-26 13:45:59,628 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | BINARY
+2026-08-26 13:46:00,239 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | SCALE
+2026-08-26 13:46:00,272 INFO [Elling_folkeviser_III-1]         ScaleBuilder.java:241  | Beam  guessed height:  8 -- 0.50 of 17 interline
+2026-08-26 13:46:00,274 INFO [Elling_folkeviser_III-1]         ScaleBuilder.java:264  | Beam measured height:  9 -- 0.27 of [6..17] range at 141% of needed quorum
+2026-08-26 13:46:00,274 INFO [Elling_folkeviser_III-1]            ScaleStep.java:65   | Scale{ interline(20,20,21) line(1,3,4) beam(9)}
+2026-08-26 13:46:00,275 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | GRID
+2026-08-26 13:46:01,059 INFO [Elling_folkeviser_III-1]       LinesRetriever.java:1500 | Global slope: 0.00045
+2026-08-26 13:46:01,103 INFO [Elling_folkeviser_III-1]    ClustersRetriever.java:326  | Retrieved raw line clusters: 12 of sizes [5] with interline(20,20,21)
+2026-08-26 13:46:01,386 INFO [Elling_folkeviser_III-1]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6, 7] #7[8] #8[9] #9[10] #10[11] #11[12]
+2026-08-26 13:46:01,437 INFO [Elling_folkeviser_III-1]        BarsRetriever.java:768  | No brace partner at level:1 for Peak{153-167 F#4260 T#7 [BRACE]}
+2026-08-26 13:46:02,148 INFO [Elling_folkeviser_III-1]        SystemManager.java:779  | 2 parts along 11 systems
+2026-08-26 13:46:02,149 INFO [Elling_folkeviser_III-1]                 Book.java:543  | Created scores: [{Score 1}]
+2026-08-26 13:46:02,150 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | HEADERS
+2026-08-26 13:46:02,363 INFO [Elling_folkeviser_III-1]      BasicClassifier.java:286  | Classifier loaded XML norms.
+2026-08-26 13:46:02,366 INFO [Elling_folkeviser_III-1]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/opt/audiveris/lib/app/audiveris.jar!/res/basic-classifier.zip
+2026-08-26 13:46:02,532 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#1 no recognized header clef.
+2026-08-26 13:46:02,712 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#2 no recognized header clef.
+2026-08-26 13:46:02,796 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#3 no recognized header clef.
+2026-08-26 13:46:02,807 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#4 no recognized header clef.
+2026-08-26 13:46:02,863 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#6 no recognized header clef.
+2026-08-26 13:46:02,877 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#7 no recognized header clef.
+2026-08-26 13:46:02,898 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#8 no recognized header clef.
+2026-08-26 13:46:02,900 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#9 no recognized header clef.
+2026-08-26 13:46:02,931 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#10 no recognized header clef.
+2026-08-26 13:46:02,956 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#11 no recognized header clef.
+2026-08-26 13:46:03,008 WARN [Elling_folkeviser_III-1]          ClefBuilder.java:658  | Staff#12 no recognized header clef.
+2026-08-26 13:46:03,019 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | STEM_SEEDS
+2026-08-26 13:46:03,080 INFO [Elling_folkeviser_III-1]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-08-26 13:46:03,081 INFO [Elling_folkeviser_III-1]        StemSeedsStep.java:86   | stem(3 max:4)
+2026-08-26 13:46:03,161 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | BEAMS
+2026-08-26 13:46:05,987 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | LEDGERS
+2026-08-26 13:46:06,662 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | HEADS
+2026-08-26 13:46:11,986 INFO [Elling_folkeviser_III-1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-2.6]}
+2026-08-26 13:46:11,989 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | STEMS
+2026-08-26 13:46:12,803 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | REDUCTION
+2026-08-26 13:46:12,849 INFO [Elling_folkeviser_III-1]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.1 interlines
+2026-08-26 13:46:12,853 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | CUE_BEAMS
+2026-08-26 13:46:12,854 INFO [Elling_folkeviser_III-1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-08-26 13:46:12,854 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | TEXTS
+2026-08-26 13:46:12,952 WARN [Elling_folkeviser_III-1]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-08-26 13:46:12,952 INFO [Elling_folkeviser_III-1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-08-26 13:46:12,961 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | MEASURES
+2026-08-26 13:46:12,970 INFO [Elling_folkeviser_III-1]                 Page.java:307  | 21 raw measures: [1 in system#1, 1 in system#2, 1 in system#3, 2 in system#4, 2 in system#5, 1 in system#6, 2 in system#7, 1 in system#8, 2 in system#9, 4 in system#10, 4 in system#11]
+2026-08-26 13:46:12,971 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | CHORDS
+2026-08-26 13:46:12,979 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | CURVES
+2026-08-26 13:46:14,589 INFO [Elling_folkeviser_III-1]         SlursBuilder.java:240  | Slurs: 3
+2026-08-26 13:46:14,677 INFO [Elling_folkeviser_III-1]      SegmentsBuilder.java:155  | Segments: 81
+2026-08-26 13:46:14,683 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | SYMBOLS
+2026-08-26 13:46:16,397 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | LINKS
+2026-08-26 13:46:16,405 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before AlterInter#8661{(0.756) staff:1 FLAT pitch:-3.0}
+2026-08-26 13:46:16,405 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before AlterInter#8655{(0.763) staff:1 FLAT pitch:1.0}
+2026-08-26 13:46:16,405 INFO [Elling_folkeviser_III-1]             KeyInter.java:1165 | No effective key before AlterInter#8671{(0.152) staff:1 NATURAL pitch:-1.0}
+2026-08-26 13:46:16,412 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before KeyAlterInter#128{(0.790/0.790) staff:2 FLAT pitch:-3.0}
+2026-08-26 13:46:16,412 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before KeyAlterInter#129{(0.762/0.762) staff:2 FLAT pitch:0.0}
+2026-08-26 13:46:16,419 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before AlterInter#8864{(0.163) staff:6 SHARP pitch:-4.0}
+2026-08-26 13:46:16,420 INFO [Elling_folkeviser_III-1]             KeyInter.java:1298 | Key built KeyInter#9070{(0.548) staff:7 KEY_SHARP_1 pitch:-4.0 fifths:1}
+2026-08-26 13:46:16,425 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before AlterInter#8969{(0.123) staff:8 SHARP pitch:-4.0}
+2026-08-26 13:46:16,427 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before AlterInter#8997{(0.460) staff:10 SHARP pitch:-4.0}
+2026-08-26 13:46:16,429 INFO [Elling_folkeviser_III-1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#9047{(0.351) staff:12 OTTAVA BASSA}
+2026-08-26 13:46:16,429 WARN [Elling_folkeviser_III-1]             KeyInter.java:1150 | No effective clef before AlterInter#9054{(0.601) staff:12 SHARP pitch:-4.0}
+2026-08-26 13:46:16,430 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | RHYTHMS
+2026-08-26 13:46:16,461 INFO [Elling_folkeviser_III-1]       StepMonitoring.java:98   | PAGE
+2026-08-26 13:46:16,466 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [2], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [3], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [4, 5], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#5 No target duration for measures local IDs [6, 7], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#6 No target duration for measures local IDs [8], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#7 No target duration for measures local IDs [9, 10], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#8 No target duration for measures local IDs [11], please check time signatures
+2026-08-26 13:46:16,467 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#9 No target duration for measures local IDs [12, 13], please check time signatures
+2026-08-26 13:46:16,468 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#10 No target duration for measures local IDs [14, 15, 16, 17], please check time signatures
+2026-08-26 13:46:16,468 WARN [Elling_folkeviser_III-1]         MeasureFixer.java:343  | System#11 No target duration for measures local IDs [18, 19, 20, 21], please check time signatures
+2026-08-26 13:46:16,471 INFO [Elling_folkeviser_III-1]                 Book.java:2596 | Book{Elling_folkeviser_III-1} storing
+2026-08-26 13:46:16,599 INFO [Elling_folkeviser_III-1]                 Book.java:2577 | Stored /book.xml
+2026-08-26 13:46:16,702 INFO [Elling_folkeviser_III-1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-26 13:46:17,324 INFO [Elling_folkeviser_III-1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-26 13:46:17,325 INFO [Elling_folkeviser_III-1]                 Book.java:2537 | Book stored as omr_output/audiveris/Elling_folkeviser_III-1.omr
+2026-08-26 13:46:17,327 INFO [Elling_folkeviser_III-1]            SheetStub.java:1660 | Disposed sheet
+2026-08-26 13:46:17,391 INFO [Elling_folkeviser_III-1]                 Book.java:2064 | End of Stub#1
+2026-08-26 13:46:17,393 INFO [Elling_folkeviser_III-1]                 Book.java:2071 | Book processed.
+2026-08-26 13:46:17,844 INFO [Elling_folkeviser_III-1]            SheetStub.java:997  | Loaded /sheet#1/sheet#1.xml
+2026-08-26 13:46:18,232 INFO [Elling_folkeviser_III-1]      PartwiseBuilder.java:2688 | Exporting sheet(s): [#1]
+2026-08-26 13:46:18,233 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#1 Part#2{ staves[1] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,240 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#2 Part#2{ staves[2] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,241 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#3 Part#2{ staves[3] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,241 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#4 Part#2{ staves[4] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,242 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#5 Part#2{ staves[5] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,247 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#7 Part#2{ staves[8] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,248 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#8 Part#2{ staves[9] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,248 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#9 Part#2{ staves[10] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,249 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#10 Part#2{ staves[11] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,249 INFO [Elling_folkeviser_III-1]                 Part.java:351  | Sheet#1 System#11 Part#2{ staves[12] configs:[5]} dummyPart id: 1
+2026-08-26 13:46:18,303 INFO [Elling_folkeviser_III-1]        ScoreExporter.java:164  | Score Elling_folkeviser_III-1 exported to omr_output/audiveris/Elling_folkeviser_III-1.mxl
+2026-08-26 13:46:18,385 INFO [Elling_folkeviser_III-1]                Score.java:181  | Closing {Score 1}

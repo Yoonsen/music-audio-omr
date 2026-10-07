@@ -1,0 +1,122 @@
+2026-08-26 14:20:47,048 INFO [Lindeman_6850_Valdres-01]                 Book.java:560  | 1 sheet in /home/theat/music-audio-omr/example_sheet_music/Lindeman_6850_Valdres-01.png
+2026-08-26 14:20:47,218 INFO []                 Book.java:2577 | Stored /book.xml
+2026-08-26 14:20:47,219 INFO []                 Book.java:2537 | Book stored as omr_output/audiveris/Lindeman_6850_Valdres-01.omr
+2026-08-26 14:20:47,222 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-08-26 14:20:47,223 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | LOAD
+2026-08-26 14:20:47,694 INFO [Lindeman_6850_Valdres-01]            SheetStub.java:1273 | Loaded image #1 2893x3570 from /home/theat/music-audio-omr/example_sheet_music/Lindeman_6850_Valdres-01.png
+2026-08-26 14:20:47,697 INFO [Lindeman_6850_Valdres-01]            ImageUtil.java:124  | Converting max RGB to gray
+2026-08-26 14:20:48,020 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | BINARY
+2026-08-26 14:20:48,867 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | SCALE
+2026-08-26 14:20:48,907 INFO [Lindeman_6850_Valdres-01]         ScaleBuilder.java:241  | Beam  guessed height:  8 -- 0.50 of 17 interline
+2026-08-26 14:20:48,908 INFO [Lindeman_6850_Valdres-01]         ScaleBuilder.java:264  | Beam measured height: 16 -- 0.90 of [7..17] range at 60% of needed quorum
+2026-08-26 14:20:48,908 WARN [Lindeman_6850_Valdres-01]         ScaleBuilder.java:293  | No reliable beam height found, guessed value: 8
+2026-08-26 14:20:48,909 INFO [Lindeman_6850_Valdres-01]            ScaleStep.java:65   | Scale{ interline(19,21,23) line(2,4,7) beam(8 extra)}
+2026-08-26 14:20:48,909 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | GRID
+2026-08-26 14:20:53,718 INFO [Lindeman_6850_Valdres-01]       LinesRetriever.java:1500 | Global slope: 0.00326
+2026-08-26 14:20:53,899 INFO [Lindeman_6850_Valdres-01]    ClustersRetriever.java:326  | Retrieved raw line clusters: 13 of sizes [5] with interline(19,21,23)
+2026-08-26 14:20:55,921 INFO [Lindeman_6850_Valdres-01]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8] #9[9] #10[10] #11[11] #12[12] #13[13]
+2026-08-26 14:21:02,883 INFO [Lindeman_6850_Valdres-01]        SystemManager.java:134  | Indentation detected for system #8
+2026-08-26 14:21:02,884 INFO [Lindeman_6850_Valdres-01]        SystemManager.java:723  | 2 pages found in sheet
+2026-08-26 14:21:02,884 INFO [Lindeman_6850_Valdres-01]        SystemManager.java:779  | Page #1: 1 part along 7 systems
+2026-08-26 14:21:02,884 INFO [Lindeman_6850_Valdres-01]        SystemManager.java:779  | Page #2: 1 part along 6 systems
+2026-08-26 14:21:02,885 INFO [Lindeman_6850_Valdres-01]                 Book.java:543  | Created scores: [{Score 1}, {Score 2}]
+2026-08-26 14:21:02,887 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | HEADERS
+2026-08-26 14:21:03,095 INFO [Lindeman_6850_Valdres-01]      BasicClassifier.java:286  | Classifier loaded XML norms.
+2026-08-26 14:21:03,097 INFO [Lindeman_6850_Valdres-01]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/opt/audiveris/lib/app/audiveris.jar!/res/basic-classifier.zip
+2026-08-26 14:21:03,539 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#2 no recognized header clef.
+2026-08-26 14:21:03,557 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#3 no recognized header clef.
+2026-08-26 14:21:03,588 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#4 no recognized header clef.
+2026-08-26 14:21:03,658 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#5 no recognized header clef.
+2026-08-26 14:21:03,757 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#6 no recognized header clef.
+2026-08-26 14:21:03,775 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#7 no recognized header clef.
+2026-08-26 14:21:03,796 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#8 no recognized header clef.
+2026-08-26 14:21:03,966 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#10 no recognized header clef.
+2026-08-26 14:21:03,972 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#11 no recognized header clef.
+2026-08-26 14:21:03,981 WARN [Lindeman_6850_Valdres-01]          ClefBuilder.java:658  | Staff#12 no recognized header clef.
+2026-08-26 14:21:04,010 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | STEM_SEEDS
+2026-08-26 14:21:04,129 INFO [Lindeman_6850_Valdres-01]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-08-26 14:21:04,130 INFO [Lindeman_6850_Valdres-01]        StemSeedsStep.java:86   | stem(4 max:7)
+2026-08-26 14:21:04,216 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | BEAMS
+2026-08-26 14:21:07,260 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | LEDGERS
+2026-08-26 14:21:10,007 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | HEADS
+2026-08-26 14:21:19,874 INFO [Lindeman_6850_Valdres-01]        HeadSeedTally.java:235  | Scale information: HeadSeeds{}
+2026-08-26 14:21:19,875 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | STEMS
+2026-08-26 14:21:20,659 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | REDUCTION
+2026-08-26 14:21:20,690 INFO [Lindeman_6850_Valdres-01]        ReductionStep.java:105  | Stems free length median value: 53 pixels, 2.5 interlines
+2026-08-26 14:21:20,695 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | CUE_BEAMS
+2026-08-26 14:21:20,696 INFO [Lindeman_6850_Valdres-01]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-08-26 14:21:20,696 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | TEXTS
+2026-08-26 14:21:20,822 WARN [Lindeman_6850_Valdres-01]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-08-26 14:21:20,822 INFO [Lindeman_6850_Valdres-01]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-08-26 14:21:20,839 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | MEASURES
+2026-08-26 14:21:20,847 INFO [Lindeman_6850_Valdres-01]                 Page.java:307  | 21 raw measures: [6 in system#1, 2 in system#2, 2 in system#3, 3 in system#4, 2 in system#5, 3 in system#6, 3 in system#7]
+2026-08-26 14:21:20,848 INFO [Lindeman_6850_Valdres-01]                 Page.java:307  | 12 raw measures: [2 in system#8, 2 in system#9, 1 in system#10, 3 in system#11, 3 in system#12, 1 in system#13]
+2026-08-26 14:21:20,848 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | CHORDS
+2026-08-26 14:21:20,854 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | CURVES
+2026-08-26 14:21:23,676 WARN [Lindeman_6850_Valdres-01]         SlursBuilder.java:254  | Error in SlursBuilder: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.isTablature()" because "staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.isTablature()" because "staff" is null
+	at org.audiveris.omr.sheet.curve.SlurLinker.canBeOrphan(SlurLinker.java:148)
+	at org.audiveris.omr.sheet.curve.SlurLinker.lookupLinkPair(SlurLinker.java:560)
+	at org.audiveris.omr.sheet.curve.ClumpPruner$ClumpLinker.selectSlur(ClumpPruner.java:423)
+	at org.audiveris.omr.sheet.curve.ClumpPruner.prune(ClumpPruner.java:171)
+	at org.audiveris.omr.sheet.curve.SlursBuilder.pruneClump(SlursBuilder.java:757)
+	at org.audiveris.omr.sheet.curve.CurvesBuilder.buildCurve(CurvesBuilder.java:242)
+	at org.audiveris.omr.sheet.curve.SlursBuilder.buildSlurs(SlursBuilder.java:232)
+	at org.audiveris.omr.sheet.curve.Curves.buildCurves(Curves.java:141)
+	at org.audiveris.omr.sheet.curve.CurvesStep.doit(CurvesStep.java:54)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:500)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-08-26 14:21:25,365 INFO [Lindeman_6850_Valdres-01]      SegmentsBuilder.java:155  | Segments: 195
+2026-08-26 14:21:25,397 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | SYMBOLS
+2026-08-26 14:21:30,787 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | LINKS
+2026-08-26 14:21:30,794 INFO [Lindeman_6850_Valdres-01]             KeyInter.java:1165 | No effective key before AlterInter#10863{(0.144) staff:1 NATURAL pitch:5.0}
+2026-08-26 14:21:30,807 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#11305{(0.121) staff:4 FLAT pitch:0.0}
+2026-08-26 14:21:30,810 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#11618{(0.255) staff:5 NATURAL pitch:3.0}
+2026-08-26 14:21:30,810 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#11685{(0.431) staff:5 FLAT pitch:3.0}
+2026-08-26 14:21:30,813 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#11821{(0.322) staff:6 FLAT pitch:1.0}
+2026-08-26 14:21:30,813 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#11840{(0.411) staff:6 FLAT pitch:6.0}
+2026-08-26 14:21:30,813 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#11892{(0.135) staff:6 NATURAL pitch:-2.0}
+2026-08-26 14:21:30,815 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#12093{(0.137) staff:7 FLAT pitch:6.0}
+2026-08-26 14:21:30,815 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#12177{(0.131) staff:7 FLAT pitch:0.0}
+2026-08-26 14:21:30,815 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#12182{(0.120) staff:7 FLAT pitch:-2.0}
+2026-08-26 14:21:30,817 INFO [Lindeman_6850_Valdres-01]             KeyInter.java:1165 | No effective key before AlterInter#12533{(0.126) staff:9 NATURAL pitch:2.0}
+2026-08-26 14:21:30,820 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#12705{(0.754) staff:10 NATURAL pitch:0.0}
+2026-08-26 14:21:30,820 INFO [Lindeman_6850_Valdres-01]             KeyInter.java:1165 | No effective key before AlterInter#12760{(0.121) staff:10 NATURAL pitch:3.0}
+2026-08-26 14:21:30,823 INFO [Lindeman_6850_Valdres-01]             KeyInter.java:1298 | Key built KeyInter#13149{(0.300) staff:10 KEY_FLAT_1 pitch:0.0 fifths:-1}
+2026-08-26 14:21:30,825 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#12835{(0.526) staff:11 FLAT pitch:0.0}
+2026-08-26 14:21:30,825 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#12848{(0.205) staff:11 FLAT pitch:4.0}
+2026-08-26 14:21:30,826 WARN [Lindeman_6850_Valdres-01]             KeyInter.java:1150 | No effective clef before AlterInter#12991{(0.187) staff:12 NATURAL pitch:1.0}
+2026-08-26 14:21:30,827 INFO [Lindeman_6850_Valdres-01]            SlurInter.java:923  | SlurInter#5883{(0.094/0.190) SLUR_BELOW} no part to remove from.
+2026-08-26 14:21:30,828 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | RHYTHMS
+2026-08-26 14:21:30,848 INFO [Lindeman_6850_Valdres-01]                Voice.java:257  | Measure{#5} Voice{#1 excess:1/8} too long
+2026-08-26 14:21:30,848 INFO [Lindeman_6850_Valdres-01]          StackRhythm.java:224  | S10 MeasureStack#5 no correct rhythm
+2026-08-26 14:21:30,850 INFO [Lindeman_6850_Valdres-01]       StepMonitoring.java:98   | PAGE
+2026-08-26 14:21:30,856 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4, 5, 6], please check time signatures
+2026-08-26 14:21:30,856 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [7, 8], please check time signatures
+2026-08-26 14:21:30,856 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [9, 10], please check time signatures
+2026-08-26 14:21:30,856 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [11, 12, 13], please check time signatures
+2026-08-26 14:21:30,857 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#5 No target duration for measures local IDs [14, 15], please check time signatures
+2026-08-26 14:21:30,857 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#6 No target duration for measures local IDs [16, 17, 18], please check time signatures
+2026-08-26 14:21:30,857 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#7 No target duration for measures local IDs [19, 20, 21], please check time signatures
+2026-08-26 14:21:30,858 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#8 No target duration for measures local IDs [1, 2], please check time signatures
+2026-08-26 14:21:30,858 WARN [Lindeman_6850_Valdres-01]         MeasureFixer.java:343  | System#9 No target duration for measures local IDs [3], please check time signatures
+2026-08-26 14:21:30,858 INFO [Lindeman_6850_Valdres-01]                Voice.java:257  | Measure{#5} Voice{#1 excess:1/8} too long
+2026-08-26 14:21:30,862 INFO [Lindeman_6850_Valdres-01]                 Book.java:2596 | Book{Lindeman_6850_Valdres-01} storing
+2026-08-26 14:21:31,020 INFO [Lindeman_6850_Valdres-01]                 Book.java:2577 | Stored /book.xml
+2026-08-26 14:21:31,173 INFO [Lindeman_6850_Valdres-01]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-26 14:21:32,324 INFO [Lindeman_6850_Valdres-01]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-26 14:21:32,324 INFO [Lindeman_6850_Valdres-01]                 Book.java:2537 | Book stored as omr_output/audiveris/Lindeman_6850_Valdres-01.omr
+2026-08-26 14:21:32,326 INFO [Lindeman_6850_Valdres-01]            SheetStub.java:1660 | Disposed sheet
+2026-08-26 14:21:32,394 INFO [Lindeman_6850_Valdres-01]                 Book.java:2064 | End of Stub#1
+2026-08-26 14:21:32,396 INFO [Lindeman_6850_Valdres-01]                 Book.java:2071 | Book processed.
+2026-08-26 14:21:35,296 INFO [Lindeman_6850_Valdres-01]            SheetStub.java:997  | Loaded /sheet#1/sheet#1.xml
+2026-08-26 14:21:35,646 INFO [Lindeman_6850_Valdres-01]      PartwiseBuilder.java:2688 | Exporting sheet(s): [#1]
+2026-08-26 14:21:35,693 INFO [Lindeman_6850_Valdres-01]        ScoreExporter.java:164  | Score Lindeman_6850_Valdres-01.mvt1 exported to omr_output/audiveris/Lindeman_6850_Valdres-01.mvt1.mxl
+2026-08-26 14:21:35,694 INFO [Lindeman_6850_Valdres-01]      PartwiseBuilder.java:2688 | Exporting sheet(s): [#1]
+2026-08-26 14:21:35,701 INFO [Lindeman_6850_Valdres-01]        ScoreExporter.java:164  | Score Lindeman_6850_Valdres-01.mvt2 exported to omr_output/audiveris/Lindeman_6850_Valdres-01.mvt2.mxl
+2026-08-26 14:21:35,795 INFO [Lindeman_6850_Valdres-01]                Score.java:181  | Closing {Score 1}
+2026-08-26 14:21:35,796 INFO [Lindeman_6850_Valdres-01]                Score.java:181  | Closing {Score 2}

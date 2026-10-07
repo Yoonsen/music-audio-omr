@@ -1113,6 +1113,9 @@ omr = [
 omr-homr = [
     { name = "homr" },
 ]
+omr-render = [
+    { name = "verovio" },
+]
 
 [package.metadata]
 requires-dist = [
@@ -1124,6 +1127,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.4.6" },
     { name = "opencv-python", specifier = ">=4.13.0.92" },
     { name = "pypdfium2", marker = "extra == 'omr'", specifier = ">=4.30" },
+    { name = "verovio", marker = "extra == 'omr-render'", specifier = ">=6.3" },
 ]
 
 [[package]]
@@ -2156,6 +2160,20 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz", hash = "sha256:231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c", size = 433602 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl", hash = "sha256:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897", size = 131087 },
+]
+
+[[package]]
+name = "verovio"
+version = "6.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/07/63fe55a328593336a66750de517a8ab6ebe7c0ad1b7e168d98d79d8503fc/verovio-6.3.0.tar.gz", hash = "sha256:33dc3b6816896a649198acd7cce291f54636fbfffa893dd78d84c3073b40d87c", size = 6158246 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6b/0b/42e560df4051b8c05407162ba117eb14b44f011e84818acc4c2065161d87/verovio-6.3.0-cp310-abi3-macosx_13_0_arm64.whl", hash = "sha256:c842f5d21d31c3d47e835e07565a9b8623b78feef527affe149ceadd9ecaa55a", size = 7239518 },
+    { url = "https://files.pythonhosted.org/packages/35/31/b56f05c859f709597edd987e80a0bc3873e7359330b22b415602f4fde922/verovio-6.3.0-cp310-abi3-macosx_13_0_x86_64.whl", hash = "sha256:92f1b3065db2e4e2e6717eafe2d010aa53a194c9547249aa5b5a64f51fc099f2", size = 7516636 },
+    { url = "https://files.pythonhosted.org/packages/a5/a6/5aa26c766d67b0c61356aed76c09820d502e825e35707aba86c6cc78d65d/verovio-6.3.0-cp310-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:c3a608b590fe3ca625eba29b547be8727063f47feb10bd5e42c548f87aeb331e", size = 8031357 },
+    { url = "https://files.pythonhosted.org/packages/a7/23/25d6a382968815baf686099d519064c3444aaad7297b6e6c507c5608f225/verovio-6.3.0-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:0896a708a5b130cc5bab3a168d70435ad8b3e54692088e7e5e281fef11c0b05d", size = 8420029 },
+    { url = "https://files.pythonhosted.org/packages/b8/23/56bf43146452bf2c920f6dc69fbeaf5119336b1ceb25898c6fa28587936e/verovio-6.3.0-cp310-abi3-win32.whl", hash = "sha256:654a96990d0ab49cd805d6c39e2c313c640a117a761a07f6a6320d82af94c53a", size = 5359176 },
+    { url = "https://files.pythonhosted.org/packages/d7/60/79588e400482320e0eb5a9a7501ab03132a5831a976e6bc5551019295c96/verovio-6.3.0-cp310-abi3-win_amd64.whl", hash = "sha256:cc8bab65570ccb38d6a440fa13d3e4820df34ee9ca483decdbe8371c4291b1a8", size = 5741661 },
 ]
 
 [[package]]

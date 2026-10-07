@@ -1,0 +1,22 @@
+2026-08-26 14:14:39,981 INFO [halling]                 Book.java:560  | 1 sheet in /home/theat/music-audio-omr/example_sheet_music/halling.jpg
+2026-08-26 14:14:40,131 INFO []                 Book.java:2577 | Stored /book.xml
+2026-08-26 14:14:40,132 INFO []                 Book.java:2537 | Book stored as omr_output/audiveris/halling.omr
+2026-08-26 14:14:40,134 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-08-26 14:14:40,135 INFO [halling]       StepMonitoring.java:98   | LOAD
+2026-08-26 14:14:40,220 INFO [halling]            SheetStub.java:1273 | Loaded image #1 595x842 from /home/theat/music-audio-omr/example_sheet_music/halling.jpg
+2026-08-26 14:14:40,223 INFO [halling]            ImageUtil.java:124  | Converting max RGB to gray
+2026-08-26 14:14:40,264 INFO [halling]       StepMonitoring.java:98   | BINARY
+2026-08-26 14:14:40,377 INFO [halling]       StepMonitoring.java:98   | SCALE
+2026-08-26 14:14:40,387 WARN [halling]            SheetStub.java:412  | halling   With a too low interline value of 5 pixels,  either this sheet contains no multi-line staves,  or the picture resolution is too low (try 300 DPI).   This interline value is NOT RELIABLE!
+2026-08-26 14:14:40,388 INFO [halling]                 Book.java:543  | Created scores: []
+2026-08-26 14:14:40,388 INFO [halling]            SheetStub.java:1191 | Sheet halling flagged as invalid.
+2026-08-26 14:14:40,389 INFO [halling]            SheetStub.java:1410 | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2026-08-26 14:14:40,392 INFO [halling]                 Book.java:2596 | Book{halling} storing
+2026-08-26 14:14:40,424 INFO [halling]                 Book.java:2577 | Stored /book.xml
+2026-08-26 14:14:40,457 INFO [halling]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-26 14:14:40,654 INFO [halling]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-26 14:14:40,654 INFO [halling]                 Book.java:2537 | Book stored as omr_output/audiveris/halling.omr
+2026-08-26 14:14:40,655 INFO [halling]            SheetStub.java:1660 | Disposed sheet
+2026-08-26 14:14:40,685 INFO [halling]                 Book.java:2064 | End of Stub#1
+2026-08-26 14:14:40,687 INFO [halling]                 Book.java:2071 | Book processed.
+2026-08-26 14:14:40,687 INFO [halling]                 Book.java:596  | Could not export since transcription did not complete successfully
